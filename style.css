@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link :active {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.icon {
+    width: 80px;
+    height: auto;
+}
+
+.tabela {
+    border: 2px solid #e48888;
+    width: 100%;
+    font-family: "Bubblegum Sans", sans-serif;
+    margin-top: 20px;
+}
+
+.tabela td {
+    background-color:rgb(247, 239, 170);
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: #dfb953;
+}
+
+.tabela th {
+color: rgb(29, 52, 155);
+}
+
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.img-doce {
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: auto;
+    border-radius: 10px;
+}
+
+body {
+   font-family: "Bubblegum Sans", sans-serif;
+    background-image: url(Background.png);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   min-height: 100vh; /* Garante que o fundo ocupe a tela inteira mesmo sem texto */
+    display: flex;
+    flex-direction: column;
+    margin: 0;       
+}
+
+main, .conteudo-principal { 
+    flex: 1; 
+}
+
+footer {
+color: white;
+width: 100%;
+margin: auto;
+}
